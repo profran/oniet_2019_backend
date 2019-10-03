@@ -33,8 +33,10 @@ router.get('/', (req, res, next) => {
 })
 
 router.get('/cruces', (req, res, next) => {
-  console.log(Object.keys(req.query)[1])
-  res.json(transaction.filter((item) => item.user_id !== req.query.userId && item[Object.keys(req.query)[1]] === req.query[Object.keys(req.query)[1]]))
+  if (transaction.find(el => el.user_id === req.query.userId)) {
+    res.json(transaction.filter((item) => item.user_id !== req.query.userId && item[Object.keys(req.query)[1]] === req.query[Object.keys(req.query)[1]]))
+  }
+  res.json([])
 })
 
 app.use('/data', router)
