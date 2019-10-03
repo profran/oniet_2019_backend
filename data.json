@@ -1,0 +1,44 @@
+[
+  {
+    "user_id": "1234",
+    "device_id": "DEVICE_A",
+    "ip": "192.34.51.21",
+    "doc": "30100200",
+    "credit_card": "232322869"
+  },
+  {
+    "user_id": "1235",
+    "device_id": "DEVICE_A",
+    "ip": "192.34.51.21",
+    "doc": "30100200",
+    "credit_card": "232322869"
+  },
+  {
+    "user_id": "1235",
+    "device_id": "DEVICE_A",
+    "ip": "192.34.51.21",
+    "doc": "30100200",
+    "credit_card": "232322869"
+  },
+  {
+    "user_id": "1236",
+    "device_id": "DEVICE_A",
+    "ip": "192.34.51.21",
+    "doc": "30100200",
+    "credit_card": "232322869"
+  },
+  {
+    "user_id": "1237",
+    "device_id": "DEVICE_A",
+    "ip": "192.34.51.21",
+    "doc": "30100200",
+    "credit_card": "232322869"
+  },
+  {
+    "user_id": "1238",
+    "device_id": "DEVICE_A",
+    "ip": "192.34.51.21",
+    "doc": "30100200",
+    "credit_card": "232322869"
+  }
+]
